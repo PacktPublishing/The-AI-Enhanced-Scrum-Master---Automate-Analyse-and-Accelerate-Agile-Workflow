@@ -1,0 +1,33 @@
+SPRINT_NAME=Syntra App — Cart & Checkout Focus
+SPRINT_ID=SP-25
+SPRINT_LENGTH_CALENDAR_DAYS=14
+SPRINT_LENGTH_WORKING_DAYS=10
+SPRINT_START_DATE=2025-10-01
+SPRINT_END_DATE=2025-10-14
+TIMEZONE=Asia/Kolkata
+
+# Working days exclude weekends and holidays
+WORKING_DAYS=2025-10-01,2025-10-03,2025-10-06,2025-10-07,2025-10-08,2025-10-09,2025-10-10,2025-10-13,2025-10-14
+WEEKENDS=2025-10-04,2025-10-05,2025-10-11,2025-10-12
+PUBLIC_HOLIDAYS=2025-10-02:Gandhi Jayanti
+
+# Team/capacity assumptions (used by the planning script)
+TEAM_SIZE_DEVELOPERS=6
+STANDARD_HOURS_PER_DAY=8
+FOCUS_FACTOR=0.70          # portion of time actually spent on sprint work
+CAPACITY_BUFFER_PERCENT=10  # reserve for unplanned/interrupt work
+
+# Velocity context (optional)
+HISTORICAL_VELOCITY_SP_RANGE=60-70
+
+# Ceremonies (optional)
+SPRINT_PLANNING_DATE=2025-10-01
+DAILY_SCRUM_TIME=09:30
+SPRINT_REVIEW_DATE=2025-10-14
+SPRINT_RETRO_DATE=2025-10-14
+
+# Sprint goal placeholder (edit during planning)
+SPRINT_GOAL="Deliver a production-ready, fast checkout with address selection, shipping methods, and at least one online payment option (UPI intent)."
+
+# Notes
+NOTES="Use MoSCoW to select backlog, keep total at ~90% of capacity, and ensure a thin-slice through cart→address→shipping→payment→confirmation."
